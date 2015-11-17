@@ -1,0 +1,151 @@
+.banner {
+	position:relative;
+	float:left;
+	width: 100%;
+	min-height: 50px;
+	}
+	
+.banner.banner-heading{
+	padding-bottom: 2px;
+}
+	
+.banner img {
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+	margin-top: 1.875rem;
+}
+
+.banner h1 {
+	color: #0f4058;
+	position:absolute;
+	top:0;
+	font-weight: 700;
+	}
+	
+.banner.banner-heading h1 {
+	/* margin-bottom: 170px;
+	margin-bottom: 10.625rem; */
+	margin-bottom: 16%;
+	margin-top: 2%;
+	background-color: #d46208;
+	color:#fff;
+	padding: 10px;
+	border: 2px solid white;
+	font-weight: 700;
+}
+
+.menu-secondary-menu-container {
+	padding-bottom: 20px;
+	}
+	
+.page-template-interior_basic-php #inner {
+	padding-top: .5rem;
+}
+	
+.page-template-interior_basic-php h1{
+	margin-top: 0;
+}
+
+p.wp-caption-text {
+	font-size: 11px;
+	font-weight: 400;
+	margin: 5px 0 0 5px;
+	color: #999999;
+	text-align: left;
+}
+
+.wp-caption.alignleft {
+	margin: 0 8px 8px 0;
+	margin: 0 .5rem .5rem 0;
+}
+
+
+
+/* STYLES FOR SECOND CAMPUS SIDEBAR */
+
+.page-template-interior_basic-php .widget_text h4{
+	text-transform: none;
+	background-color: #d46208;
+	color:#fff;
+	padding: 10px;
+	/* border: 2px solid white; */
+	font-weight: 700;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Desktops, laptops and iPads (landscape) ----------- */
+
+@media only screen and (max-width: 900px) {
+
+}
+
+/* In-Between Desktop and iPad ----------- */
+
+@media only screen and (max-width: 800px) {
+
+}
+/* In-Between Desktop and iPad II ----------- */
+
+@media only screen and (max-width: 600px) {
+	.genesis-nav-menu.menu-secondary a{
+		border-right:none;
+		padding:12px 0 8px 8px;
+	}
+	.banner.banner-heading h1 {
+	padding: 10px 0;
+	}
+	
+	
+
+}
+
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (max-width: 768px) {
+	.banner.banner-heading h1 {
+		margin-bottom: 110px;
+	}
+	.page-template-interior_basic-php #wrap #content, .page-template-interior_basic-php .sidebar-content #content {
+		width:66%;
+		} 
+		
+	
+	.page-template-interior_basic-php #wrap .sidebar {
+		width: 30.555555555%;
+	}
+}
+
+/* iPhones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 480px) {
+	.banner img {
+		display: none;
+	}
+	
+	.banner.banner-heading h1 {
+		margin-bottom: 0px;
+		text-align: center;
+		font-size: 1.5rem;
+		width: 100%;
+		display: block;
+		border: none;
+}
+	
+	.genesis-nav-menu.menu-secondary a{
+		width: 100%
+		}
+	.page-template-interior_basic-php #wrap #content, .page-template-interior_basic-php .sidebar-content #content {
+		width:100%;
+		} 
+	.page-template-interior_basic-php #wrap .sidebar {
+		width: 100%;
+	}
+
+}

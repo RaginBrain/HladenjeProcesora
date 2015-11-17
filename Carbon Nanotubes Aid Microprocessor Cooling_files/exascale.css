@@ -1,0 +1,40 @@
+.exa-text-sponsor {
+	font-size: 18px;
+	color: white;
+	background: #ff7f27;
+	border-radius: 5px;
+	padding: 3px 10px;
+	margin: 0 0 10px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.exascale-logo-sponsor {
+	font-size: 18px;
+	color: black;
+	display: inline-block;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.exascale-logo-sponsor.content {
+	text-align: center;
+}
+
+.exascale-logo-sponsor.archive {
+	padding-left: 20px;
+	width: 461px;
+}
+
+.exascale-logo-sponsor.content img {
+	display: block;
+}
+
+#post-content .exascale-logo-sponsor.archive img {
+	margin: 0;
+	vertical-align: text-top;
+}
+
+#post-content .exascale-logo-sponsor.content img {
+	margin: 0 auto;
+}
