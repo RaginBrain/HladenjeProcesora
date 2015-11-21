@@ -14,3 +14,7 @@ termalna pasta
 }
 
 zakljucak 2
+
+
+reference:
+https://www.researchgate.net/publication/2480020_Thermal_Performance_Challenges_from_Silicon_to_Systems
