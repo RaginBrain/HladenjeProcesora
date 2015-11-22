@@ -1,15 +1,14 @@
 *UVOD -  2
-{strategije i dizajn
+{strategije i dizajn  (Y)
 }
 razdrada 
 {
-aktivno hlaðenje*
 hlaðenje zrakom
-hlaðenje vodom
+hlaðenje vodom (Y)
+pasivno hlaðenje
 hlaðenje peliter elementom / termièka pumpa
 hlaðenje metodom zamrzivaèa
 future trends
-pasivno
 termalna pasta
 }
 
